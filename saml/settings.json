@@ -2,13 +2,13 @@
     "strict": true,
     "debug": true,
     "sp": {
-        "entityId": "https://<sp_domain>/metadata/",
+        "entityId": "https://flask-saml-testing.herokuapp.com/metadata/",
         "assertionConsumerService": {
-            "url": "https://<sp_domain>/?acs",
+            "url": "https://flask-saml-testing.herokuapp.com/?acs",
             "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
         },
         "singleLogoutService": {
-            "url": "https://<sp_domain>/?sls",
+            "url": "https://flask-saml-testing.herokuapp.com/?sls",
             "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
         },
         "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
@@ -25,6 +25,6 @@
             "url": "https://login.microsoftonline.com/09b2a11a-b83f-41dd-a679-b9477a0472cc/saml2",
             "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
         },
-        "x509cert": "<onelogin_connector_cert>"
+        "x509cert": ""
     }
 }
