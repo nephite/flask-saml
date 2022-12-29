@@ -1,1 +1,1 @@
-web: gunicorn flask-saml:app
+web: gunicorn
